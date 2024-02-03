@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="sticky top-0 z-50 bg-white dark:bg-black">
       <div
         className="fixed top-0 right-0 h-full w-96 dark:bg-white text-white dark:text-gray-700 font-medium  rounded-l-md bg-black transition-all duration-300 z-50"
         style={{
