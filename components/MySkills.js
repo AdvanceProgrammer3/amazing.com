@@ -10,8 +10,8 @@ const MySkills = () => {
     "git and github",
   ];
   return (
-    <div>
-      <div className="px-4 flex flex-col items-center">
+    <div className="">
+      <div className="px-4 flex flex-col items-center ">
         <h1 className="text-2xl font-medium ">
           What my programming skills included?
         </h1>
@@ -25,7 +25,7 @@ const MySkills = () => {
       <div className="grid grid-cols-2 place-items-center lg:grid-cols-3">
         {skills.map((skill) => (
           <div className="" key={skill}>
-            <p className="w-40  text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-sm text-sm px-5 py-4 my-4 text-center me-2 mb-20">
+            <p className="w-40  text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-sm text-sm px-5 py-4  text-center me-2 mb-4  my-4">
               {skill}
             </p>
           </div>

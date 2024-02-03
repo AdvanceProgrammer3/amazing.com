@@ -15,11 +15,11 @@ const AboutWebsite = () => {
       </div>
       <div className="flex-1 mt-20 items-center justify-center ">
         <Image
-          src="/Websitelogo.jpg"
+          src="/logo_web.jpg"
           alt=""
-          width={200}
-          height={200}
-          className=""
+          width={300}
+          height={300}
+          className="rounded-lg"
         />
       </div>
     </div>

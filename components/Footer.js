@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="relative mt-10">
+    <div className="relative mt-40">
       <div className="bg-yellow-400 h-32 lg:max-w-4xl mx-auto  items-center text-center absolute -top-28 right-0 left-0 justify-between grid grid-cols-1 place-items-center">
         <div>
           <p
